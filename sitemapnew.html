@@ -11,12 +11,12 @@
 @font-face{font-family:Roboto;font-style:normal;font-weight:300;src:local('Roboto Light'),local('Roboto-Light'),url(https://fonts.gstatic.com/s/roboto/v16/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff'),url(https://fonts.gstatic.com/s/roboto/v16/0eC6fl06luXEYWpBSJvXCBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2'),url(https://fonts.gstatic.com/s/roboto/v16/Hgo13k-tfSpn0qi1SFdUfSZ2oysoEQEeKwjgmXLRnTc.ttf) format('truetype')}@font-face{font-family:Roboto;font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(https://fonts.gstatic.com/s/roboto/v16/RxZJdnzeo3R5zSexge8UUT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff'),url(https://fonts.gstatic.com/s/roboto/v16/ZLqKeelYbATG60EpZBSDyxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2'),url(https://fonts.gstatic.com/s/roboto/v16/RxZJdnzeo3R5zSexge8UUSZ2oysoEQEeKwjgmXLRnTc.ttf) format('truetype')}@font-face{font-family:Roboto;font-style:normal;font-weight:900;src:local('Roboto Black'),local('Roboto-Black'),url(https://fonts.gstatic.com/s/roboto/v16/mnpfi9pxYH-Go5UiibESIj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff'),url(https://fonts.gstatic.com/s/roboto/v16/s7gftie1JANC-QmDJvMWZhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2'),url(https://fonts.gstatic.com/s/roboto/v16/mnpfi9pxYH-Go5UiibESIiZ2oysoEQEeKwjgmXLRnTc.ttf) format('truetype')}@font-face{font-family:Roboto;font-style:italic;font-weight:300;src:local('Roboto Light Italic'),local('Roboto-LightItalic'),url(https://fonts.gstatic.com/s/roboto/v16/7m8l7TlFO-S3VkhHuR0at4bN6UDyHWBl620a-IRfuBk.woff) format('woff'),url(https://fonts.gstatic.com/s/roboto/v16/7m8l7TlFO-S3VkhHuR0atzTOQ_MqJVwkKsUn0wKzc2I.woff2) format('woff2'),url(https://fonts.gstatic.com/s/roboto/v16/7m8l7TlFO-S3VkhHuR0atywlidHJgAgmTjOEEzwu1L8.ttf) format('truetype')}@font-face{font-family:Roboto;font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(https://fonts.gstatic.com/s/roboto/v16/OLffGBTaF0XFOW1gnuHF0YbN6UDyHWBl620a-IRfuBk.woff) format('woff'),url(https://fonts.gstatic.com/s/roboto/v16/OLffGBTaF0XFOW1gnuHF0TTOQ_MqJVwkKsUn0wKzc2I.woff2) format('woff2'),url(https://fonts.gstatic.com/s/roboto/v16/OLffGBTaF0XFOW1gnuHF0SwlidHJgAgmTjOEEzwu1L8.ttf) format('truetype')}
 .menu-tool>section>:first-child,.shares>section>:first-child{cursor:pointer;background-color:transparent;padding-right:0;border:1px solid transparent;}
 .main-menu ul li,.page-menu ul li,.sos-profil ul,.tool-menu,.tool-menu li,.tool-menu ul{list-style:none}
-a:link,a:visited{color:#e8554e;text-decoration:none}
+a,a:visited{color:#e8554e;text-decoration:none}
 #header h1 a,#header p a,.descriptionwrapper,.post h1,.post h2,.post-body,body,p.description span{font-family:Roboto,Arial,sans-serif}
 #header p a:hover,a:hover,a:link,a:visited{text-decoration:none}
-#judulblog,.content-wrapper,.main-menu ul li,.page-menu ul li,a:link,.btn{transition:all .4s ease-in-out}
+#judulblog,.content-wrapper,a:link,.btn{transition:all .4s ease-in-out}
 #main-wrapper,.credit,.main-menu{overflow:hidden}
-#main-wrapper{word-wrap:break-word}
+#main-wrapper,i.klik-url{word-wrap:break-word}
 #header,#judulblog,#search-box,.content-wrapper{position:relative}
 #navbar-iframe{visibility:hidden;height:0;display:none}
 body{background:#e9eaed;color:#141924;font-size:100%;text-align:left;margin:0}
@@ -24,56 +24,59 @@ a:hover{color:red}
 a:active,a:focus,i:active,i:focus,:focus{outline:0}
 a img{border-width:0}
 b{font-weight:500}
-#header-wrapper{width:145px;height:47px;margin:-3px 10px 0 0;padding:0;float:left;display:inline}
+#header-wrapper{width:145px;height:auto;margin:13px 10px 0 0;padding:0;float:left;display:inline}
 #header{width:auto;margin:0;padding:0;z-index:1;line-height:3em}
 #header-inner{background-position:center;margin:0;padding:0;display:block}
-#header h1 a,#header p a{font-size:18px;font-weight:900;color:#141924;padding:0;margin:0}
+#header h1 a,#header p a{font-size:18px;font-weight:900;color:#141924;padding:0;margin:0;vertical-align:3px}
 #header h1{margin:0}
 #header p a:hover{color:#f07468}
-.titlewrapper{height:30px}
-.titlewrapper p{margin:0;}
 .descriptionwrapper,p.description span{}
+.titlewrapper,#header h1{height:47px;line-height:47px}
 .creditpic,.postmeta,h3.date-header{position:relative}
 #header h1 amp-img,#header p amp-img{width:15px;height:15px;vertical-align:-3%}
 .iklan-head{display:none}
-.bungkus-judulblog{background:#fff;margin:0 auto;padding:0;width:100%;height:auto;border-top:2px solid transparent;border-bottom:1px solid #dedede;position:fixed;top:0;left:0;z-index:10000}
-.bungkus-judulblog:after{content:"";background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAM4AAAADCAIAAABUC6f5AAABbElEQVR4XoVTAW4DMQjDSfe8fWKP3yeuxYsVbqBDp6ssY5s0IlTF78+31Q8EBEM8ZEMEY7GFPQHYNIPyAoRA2pYju9vWHMEccJgAfAQLHnibkjdMMLxXAtnDJI7QS5jsGSr5t2YHRnxFCcSCwmU/S9jigNvY7GLE86hFGKXDhpjNTlmKT73zErrCTHzrf2AxfGjxDnAMYgGL3ULQBBfPYM7NCX9R4iX4/Cwr8VrCL4jwi36e3EmIqVyYwr7WB7m6QwmHtQ8ulbUJKsh2AaNRQZYbIJWt4nAv0jJUGw/VI4dBHQy7h/agfRSqzJS1EqbawT7k0zGUgMlXsG+gdnN4tiZKQsvKsvWG3BivfRggztlzxvtHUyjXwYbKM+rsIcl+qEW4vBulVVwHcTd7+qouO2cbnnlFqrJfVam+vP7D43FR95vJMZ+BHL01UK7tixEhh6maMJY0QQiGTLeiMda1m6yPILcCL/9VdSOOs383HBTkzoaYBwAAAABJRU5ErkJggg==) repeat;height:3px;position:absolute;top:-2px;left:0;right:0;z-index:10000}
-#judulblog{padding:0;margin:0;width:100%}
-#outer-wrapper{background:#fff;width:auto;text-align:left;margin:10px 0 0;padding:0;border:1px solid #dedede;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-moz-box-sizing:border-box;box-sizing:border-box}
+.bungkus-judulblog{background:#fff;margin:0 auto;padding:0;width:100%;height:47px;border-top:2px solid transparent;border-bottom:1px solid #dedede;position:fixed;top:0;left:0;z-index:9996}
+.bungkus-judulblog:after{content:"";background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAM4AAAADCAIAAABUC6f5AAABbElEQVR4XoVTAW4DMQjDSfe8fWKP3yeuxYsVbqBDp6ssY5s0IlTF78+31Q8EBEM8ZEMEY7GFPQHYNIPyAoRA2pYju9vWHMEccJgAfAQLHnibkjdMMLxXAtnDJI7QS5jsGSr5t2YHRnxFCcSCwmU/S9jigNvY7GLE86hFGKXDhpjNTlmKT73zErrCTHzrf2AxfGjxDnAMYgGL3ULQBBfPYM7NCX9R4iX4/Cwr8VrCL4jwi36e3EmIqVyYwr7WB7m6QwmHtQ8ulbUJKsh2AaNRQZYbIJWt4nAv0jJUGw/VI4dBHQy7h/agfRSqzJS1EqbawT7k0zGUgMlXsG+gdnN4tiZKQsvKsvWG3BivfRggztlzxvtHUyjXwYbKM+rsIcl+qEW4vBulVVwHcTd7+qouO2cbnnlFqrJfVam+vP7D43FR95vJMZ+BHL01UK7tixEhh6maMJY0QQiGTLeiMda1m6yPILcCL/9VdSOOs383HBTkzoaYBwAAAABJRU5ErkJggg==) repeat;height:3px;position:absolute;top:-2px;left:0;right:0;z-index:9996}
+#judulblog{padding:0;margin:-16px 0 0;width:100%;height:47px}
 #outer-wrapper,.search-form{-webkit-box-sizing:border-box}
 .home-wrapper{width:100%;max-width:1100px;margin:0 auto;padding:0;-moz-box-sizing:border-box;box-sizing:border-box}
 .content-wrapper{width:100%;max-width:1100px;margin:0 auto;}
-
-#outer-wrapper,.search-form{-webkit-box-sizing:border-box}
 #main-wrapper{width:100%;float:left;margin:0;padding:0}
 
 .post-body{margin:1em 0 .65em;font-size:18px;font-weight:300;line-height:1.6em;padding:0;color:#444}
 ::selection{background:#e8554e;color:#fff}
 .feed-links{clear:both;line-height:2.5em}
 
-.main-menu ul li,.page-menu ul li{display:inline-block}
-.main-menu,.main-menu ul,.sos-profil li{display:inline-block}
-.sos-profil{float:right;margin:0 35px 0 0;}
-.sos-profil ul{padding:0;margin:0}
-.sos-profil li{float:right;margin-right:2px}
+.btn-sidebaramp{display:inline-block;background-image:url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 24 24' width='30' height='30' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath style='fill:#333' d='M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");background-repeat:no-repeat;background-size:30px 30px;background-position:center right;background-color:transparent;width:220px;height:48px;border:none;position:fixed;top:0;right:40px;z-index:9998;cursor:pointer}
+.btn-sidebaramp:focus{outline:0}
+
+amp-sidebar{width:240px;padding:0 0 100px;background:#fff;}
+svg.amp-close-image{margin:15px 15px 5px;cursor:pointer;}
+amp-sidebar ul{margin:0;padding:0;list-style:none;}
+amp-sidebar li{margin:0;list-style:none;border-top:1px solid #dedede;padding:10px 20px}
+amp-sidebar li:last-child{border-bottom:1px solid #dedede;}
+amp-sidebar li a,amp-sidebar li a:visited{color:#555;font-weight:400;font-size:14px;display:block}
+amp-sidebar li a:hover{color:#111}
+amp-sidebar button{margin-left:20px}
+#sidebar h6 {border:none;background-color:#455A64;font-size:14px;font-weight:400;color:#fff;padding:0;margin:0 0 10px 20px}
+amp-sidebar ul li.drop ul{background:#37474F;margin-top:10px}
+amp-sidebar ul li.drop ul li,amp-sidebar ul li.drop ul li:first-child{padding:10px 20px 0 40px}
+amp-sidebar li.drop{margin:0;list-style:none;border-top:0;border-bottom:0;padding:0}
+amp-sidebar li.drop section{margin:0;list-style:none;border-top:1px solid #546E7A;border-bottom:1px solid #37474F;padding:10px 0 0}
+amp-sidebar li.drop li{border:0}
+amp-sidebar li.drop li:first-child{border-top:1px solid #546E7A}
+amp-sidebar li.drop li:last-child{padding:10px 20px 10px 40px;border-bottom:0;margin-bottom:-2px}
+amp-sidebar li.drop section[expanded],amp-sidebar li.drop section[expanded] ul{border-bottom:none}
+#sidebar h6 svg{width:20px;height:20px;vertical-align:middle;float:right;margin-right:20px}
+#sidebar h6 svg path{fill:white}
+
+.sos-profil li{display:inline-block;border-top:0;padding:10px 0}
+.sos-profil li:last-child{border-bottom:0;}
+.sos-profil{margin:0;}
+.sos-profil ul{padding:0 0 0 15px;margin:0}
 .sos-profil svg{width:32px;height:32px}
-.main-menu svg{width:20px;height:20px;vertical-align:-5px}
-.menu-wrapper{background:#fff;width:auto;padding:0;margin:53px auto 0;}
-.menu-wrapper:after{content:"";display:block;clear:both}
-.main-menu,.main-menu ul{padding:0}
-.main-menu{width:auto;height:auto;margin:0;font-size:16px;float:left}
-.main-menu ul{margin:0 auto;line-height:2.8em}
-.main-menu ul li a{color:#141924;padding:0;margin:0 auto;font-size:16px;font-weight:500;height:44px;line-height:44px}
-.page-menu ul li a,.page-menu ul li a span{font-family:Roboto,sans-serif}
-.main-menu ul li:first-child{margin-left:0}
-.main-menu ul li{margin:0 15px;z-index:2;}
-.main-menu ul li span i{vertical-align:middle}
-.page-menu{float:left;width:auto;height:auto;padding:0;margin:0}
-.page-menu ul{margin:0 auto;padding:0;line-height:3em}
-.page-menu ul li{padding-top:2px}
-.main-menu ul li a:hover,.page-menu ul li a:hover{color:#e8554e}
-.page-menu ul li a{color:#141924;padding:0 20px 0 0;font-size:16px;font-weight:500}
-.main-menu ul li a:hover span svg path{fill:#e8554e;transition:all .4s ease-in-out;}
+
+.menu-wrapper{padding:0;margin:50px auto 0;}
 
 #footer-wrapper,.creditpic{width:100%}
 #footer-wrapper{background:#3a3a3a;margin-top:30px}
@@ -126,40 +129,18 @@ h3.date-header{margin:0}
 .cookie-choices-info .cookie-choices-button{background-color:#adbcc5;border-radius:5px;padding:5px 12px;text-transform:none;color:#000;transition:all .2s linear}
 .cookie-choices-info .cookie-choices-button:nth-child(2){background-color:#f1d600}
 .cookie-choices-info .cookie-choices-button:hover,.cookie-choices-info .cookie-choices-button:nth-child(2):hover{background-color:#e9eef0}
-.main-menu-mobile ul li:first-child{border-top:none}
-.main-menu-mobile ul li a:hover{color:#e8554e}
-.main-menu-mobile ul li{list-style:none;display:block;transition:all .4s ease-in-out;text-align:left;border-top:solid 1px #dedede}
-.menu-wrapper-mobile{background:#fff;width:auto;padding:0 0 16px;margin:10px auto 0;border-top:1px solid #dedede;}
-.main-menu-mobile,.main-menu-mobile ul{padding:0}
-.main-menu-mobile{width:auto;height:auto;margin:0;font-size:16px;overflow:hidden;text-align:center}
-#mobile-menu{display:none}
-.main-menu-mobile ul{margin:0 auto;line-height:2.8em}
-.main-menu-mobile ul li a{color:#141924;padding:0 15px;font-family:Roboto,Arial,sans-serif;font-size:16px;font-weight:500}
-.menu,.mobile-menu-ikon{font-size:30px;cursor:pointer}
-.mobile-menu-wrapper{display:none;visibility:hidden;margin:-5px 30px 0}
 
-.main-menu ul li,.search-wrapper{position:relative}
-
-.search-wrapper{height:30px;float:right;display:inline;padding:10px 0;margin-top:0}
-.jump-link,.jump-link a,.tool-menu{display:none}
-.main-menu ul li:before{content:'';height:4px;width:0;position:absolute;bottom:0;left:0;background:#e8554e;transition:all .4s ease-out}
-.main-menu ul li:hover:before{width:100%}
-.main-menu ul li,.search-wrapper{position:relative}
-.search-wrapper{float:right;display:inline;padding:0;margin-top:8px}
-#search-box{position:absolute;right:0;top:-8px;padding:10px 0;background:#fff;}
+#search-box{padding:10px;margin:0 0 10px;background:#fff;}
 #search-box form{position:relative}
-#search-box .search-form:hover,#search-box .search-form:focus{background:#fff;outline:0;box-shadow:0 2px 7px rgba(0,0,0,.45);width:300px;padding:0 30px;}
-#search-box .search-form{background:#333;border:1px solid transparent;color:#333;width:0;padding:0 10px 0 20px;height:26.67px;line-height:26.67px;font-family:Roboto,sans-serif;font-size:16px;font-weight:500;margin:0;border-radius:3px;transition: all 0.5s ease-in-out;}
-#search-box .search-form{background-image:url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 24 24' width='24' height='24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath style='fill:white' d='M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");background-repeat:no-repeat;background-size:20px 20px;background-position:5px 3px}
-#search-box .search-form:focus,#search-box .search-form:hover{background-image:url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 24 24' width='24' height='24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath style='fill:gray' d='M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");background-repeat:no-repeat;background-size:20px 20px;background-position:5px 3px}
+#search-box .search-form:focus{outline:0;}
+#search-box .search-form{background:#fff;border:1px solid transparent;box-shadow:0 2px 7px rgba(0,0,0,.45);color:#333;width:100%;padding:0 30px;height:26.67px;line-height:26.67px;font-family:Roboto,sans-serif;font-size:16px;font-weight:500;margin:0;border-radius:3px;transition: all 0.5s ease-in-out;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+#search-box .search-form{background-image:url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 24 24' width='24' height='24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath style='fill:gray' d='M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");background-repeat:no-repeat;background-size:20px 20px;background-position:5px 3px}
 .resetbutton{background:0 0;border:none;position:absolute;top:4px;right:5px;padding:0;cursor:pointer;line-height:1;transition:all .4s ease-in-out;z-index:999}
 .resetbutton svg{width:18px;height:18px;vertical-align:middle}
 .resetbutton:focus{outline:0}
 #search-box .search-form:not(:valid)~.resetbutton{display:none}
 
 .overlay,.tool-menu{display:none}
-.main-menu ul li:before{content:'';height:4px;width:0;position:absolute;bottom:0;left:0;background:#e8554e;transition:all .4s ease-out}
-.main-menu ul li:hover:before{width:100%}
 .slideInUp{-webkit-animation-name:slideInUp;animation-name:slideInUp;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
 @-webkit-keyframes slideInUp{0%{-webkit-transform:translateY(100%);transform:translateY(100%);visibility:visible}
 100%{-webkit-transform:translateY(0);transform:translateY(0)}
@@ -168,13 +149,13 @@ h3.date-header{margin:0}
 100%{-webkit-transform:translateY(0);transform:translateY(0)}
 }
 
-.menu-tool{position:relative;float:right;width:auto;height:auto}
+.menu-tool{position:fixed;right:10px;top:0;width:auto;height:auto;z-index:9997}
 .menu-toolikon{width:220px;cursor:pointer;margin:8px -10px 0 0;text-align:right;background-color:#fff;border:1px solid transparent;padding-right:0}
 .menu-toolikon svg{width:30px;height:30px}
 .menu-toolikon .show-less svg{width:22px;height:22px;margin-top:5px}
 .menu-tool section:not([expanded]) .show-less,.menu-tool section[expanded] .show-more{display:none}
 .menu-tool section{position:absolute;top:0;right:0;z-index:1;}
-.tool-menu{background-color:#fff;border-radius:2px;box-shadow:0 0 6px rgba(0,0,0,.16),0 6px 12px rgba(0,0,0,.32);color:#757575;cursor:default;padding:0 0 15px;margin:0;min-width:220px;outline:0;position:absolute;top:8px;right:0;text-align:left;white-space:nowrap;z-index:100000}
+.tool-menu{background-color:#fff;border-radius:2px;box-shadow:0 0 6px rgba(0,0,0,.16),0 6px 12px rgba(0,0,0,.32);color:#757575;cursor:default;padding:0 0 15px;margin:0;min-width:220px;outline:0;position:absolute;top:8px;right:0;text-align:left;white-space:nowrap;z-index:9998}
 .tool-menu ul{margin:0;padding:0}
 .tool-menu li a,.tool-menu li span{text-decoration:none;color:#141924}
 .tool-menu li a:hover{color:#e8554e}
@@ -183,7 +164,7 @@ h3.date-header{margin:0}
 
 #codes,#main-wrapper{word-wrap:break-word}
 #outer-wrapper,.blockquote,pre{text-align:left}
-#outer-wrapper{background:0;width:100%;margin:10px 0 0;padding:0;border:none;border-radius:0}
+#outer-wrapper{background:0;width:100%;margin:60px 0 0;padding:0;border:none;border-radius:0}
 .post{background:#fff;width:100%;overflow:hidden;margin:0;padding:0 30px 30px 0;border:1px solid #dedede;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
 .judul-box{position:relative;padding:0 0 0 13%;}
 #judul-post{position:absolute;top:25%;left:50%;margin-left:-550px;padding:0;width:100%;max-width:1100px;}
@@ -213,7 +194,7 @@ h2.sharetitle{display:block;float:left;font-size:18px;margin-top:15px;font-weigh
 .sharethis a.url:active{box-shadow:inset 0 1px 0 rgba(0,0,0,.16)}
 .iklan-kecilatas,.iklan-komentar,.parser{text-align:center}
 
-.disqus-comments{display:none}
+.disqus-comments,.page-menu{display:none}
 
 hr{height:0;border:0;border-top:1px solid #ddd}
 kbd{-moz-border-radius:3px;-moz-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 2px #fff inset;-webkit-border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 2px #fff inset;background-color:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 2px #fff inset;color:#333;display:inline-block;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:1.4;margin:0 .1em;padding:.1em .6em;text-shadow:0 1px 0 #fff}
@@ -264,11 +245,6 @@ a.btn-primary,a.btn-success,a.btn-info,a.btn-warning,a.btn-danger{color:#fff}
 #sidebar-kanan,#sidebar-wrapper,.slider1{display:none}
 .float-left{float:left;margin-right:10px}
 
-.slider1{position:fixed;bottom:0;left:0;z-index:9999}
-.slider1 label{display:block;position:absolute;top:0;right:0;font-size:18px;font-weight:bold;width:20px;height:20px;line-height:20px;text-align:center;background:#fff;border:1px solid #dedede;cursor:pointer;z-index:9999}
-.slider1 input{position:absolute;right:-999em;opacity:0}
-.slider1 input[type=checkbox]:checked+div{display:none}
-
 .contact-box{margin-top:10px}
 .contact-box svg{width:24px;height:24px;vertical-align:-6px;margin-right:5px}
 .contact-box svg path{fill:#444}
@@ -301,7 +277,7 @@ a.btn-primary,a.btn-success,a.btn-info,a.btn-warning,a.btn-danger{color:#fff}
 .img-width-300.img-left,.img-width-300.img-right,.img-width-400.img-left,.img-width-400.img-right{clear:both;float:none;margin:1em auto;text-align:center;}
 }
 
-@media screen and (max-width:1024px){#header-wrapper{margin:-4px 10px 0 0;}
+@media screen and (max-width:1024px){
 .judul-box{padding:0 0 0 14%;}
 .bungkus-judulblog{padding:0 30px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
 .menu-wrapper{padding:0 30px;}
@@ -317,32 +293,16 @@ a.btn-primary,a.btn-success,a.btn-info,a.btn-warning,a.btn-danger{color:#fff}
 .postmeta{position:relative;top:0;left:0;padding:0;color:#333;line-height:25px}
 .clock{display:inline-block;}
 }
-@media screen and (max-width:800px){.bungkus-judulblog{position:relative;padding:0}
-.menu-wrapper{margin:0 auto;height:auto}
-.menu-wrapper:after{content:'';clear:both;display:block}
-.profil-description{height:auto}
-#outer-wrapper{margin-top:0}
+@media screen and (max-width:800px){
+#outer-wrapper{margin-top:-5px}
 .post{padding:0 20px 20px 0;}
 #judul-post{position:relative;max-width:100%;margin-left:0;top:0;left:0}
 .judul-box{padding:0 0 0 20px;}
-#header-wrapper,.search-wrapper{text-align:center}
-.page-menu{width:100%;margin:0 0 10px}
-.page-menu ul li{width:33.3%;float:left}
-#header-wrapper{width:100%;float:none;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:20px 0 10px}
-.page-menu ul li a{margin:0 auto;padding:0}
-.sos-profil ul{width:auto;display:inline-block;float:none;margin:0 auto;padding:0}
-.sos-profil li{margin:0 5px}
-.search-wrapper{margin-top:0;display:block;float:none;clear:both;height:auto}
-.sos-profil{margin-top:0;display:block;float:none;clear:both;width:auto;padding:15px 0 15px 10px;text-align:left}
-.mobile-menu-wrapper{display:block;visibility:visible;text-align:right}
-.main-menu ul,.page-menu ul li{text-align:center}
-.main-menu ul{width:100%;height:auto;line-height:2.3em}
-#search-box{top:0;right:20px;padding:15px 0}
 .footer1,.footer2,.footer3,.footer4{display:none}
 #footer-wrapper .content-wrapper{padding:0 15px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:20px 0 10px}
 .contact-box amp-iframe{height:600px}
 }
-@media screen and (max-width:414px){.post h2 {margin: 0 0 10px 10px;padding:0 0 10px;}
+@media screen and (max-width:414px){.post h2 {margin:10px 0 10px 10px;padding:0 0 10px;}
 body{background:#fff}
 #main-wrapper{padding: 0;border:none}
 .post{padding: 0 10px 0 0;border:none}
@@ -350,6 +310,8 @@ body{background:#fff}
 .post-body{margin-top:10px;}
 .page-menu ul{line-height:2em}
 .mobile-menu-wrapper{margin:-5px 10px 0}
+.btn-sidebaramp,.menu-tool section:not([expanded])>.menu-toolikon{width:100px;}
+.menu-tool section[expanded]>.menu-toolikon{width:220px;}
 .contact-box amp-iframe{height:550px}
 .contact-box .bbm .barcode-bbm{width:100%}
 }
@@ -409,12 +371,16 @@ body{background:#fff}
 <script async='async' custom-element='amp-ad' src='https://cdn.ampproject.org/v0/amp-ad-0.1.js'></script>
 <script async='async' custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
 <script async='async' custom-element='amp-iframe' src='https://cdn.ampproject.org/v0/amp-iframe-0.1.js'></script>
+<script async='async' custom-element='amp-sidebar' src='https://cdn.ampproject.org/v0/amp-sidebar-0.1.js'></script>
+<meta content='width=device-width,minimum-scale=1,initial-scale=1' name='viewport'/>
+<meta content='IE=9; IE=8; IE=7; IE=EDGE; chrome=1' http-equiv='X-UA-Compatible'/>
+<meta content='blogger' name='generator'/>
 <link href='https://www.ijo-gading.com/favicon.ico' rel='icon' type='image/x-icon'/>
 <link href='https://3.bp.blogspot.com/-tkaMbA4sL90/WpLVJI-77bI/AAAAAAAAC8o/KYC6RMDbViMxkDY97d1inA6HH_1QiVqxACLcBGAs/s1600/32x32.png' rel='icon' sizes='32x32'/>
 <link href='https://2.bp.blogspot.com/-I1BvIju_IG4/WpLVIIKWxAI/AAAAAAAAC8k/W0cuASrSN9w9pH_H-jHpbkIwb5un42v_wCLcBGAs/s1600/192x192.png' rel='icon' sizes='192x192'/>
 <link href='https://2.bp.blogspot.com/-cKpvx3gh1iY/WpLVIBwCCuI/AAAAAAAAC8c/Fun4YS8ykn8IJwv66cwclcL8BD0RGr89ACLcBGAs/s1600/180x180.png' rel='apple-touch-icon-precomposed'/>
 <meta content='https://1.bp.blogspot.com/-5PUvLR0xMmk/WpLVIGxgHdI/AAAAAAAAC8g/KX9jiXRSUbAebz8I9ZgTPAAAYjenx1DHgCLcBGAs/s1600/144x144.png' name='msapplication-TileImage'/>
-<link href='https://www.ijo-gading.com/p/disclaimer-ijo-gading.html' rel='canonical'/>
+<link href='https://www.ijo-gading.com/p/about-us.html' rel='canonical'/>
 <link href='https://www.ijo-gading.com/feeds/posts/default' rel='alternate' title='Ijo Gading- Atom' type='application/atom+xml'/>
 <link href='https://www.ijo-gading.com/feeds/posts/default?alt=rss' rel='alternate' title='Ijo Gading- RSS' type='application/rss+xml'/>
 <link href='https://www.blogger.com/feeds/2051928909819832246/posts/default' rel='alternate' title='Ijo Gading- Atom' type='application/atom+xml'/>
@@ -424,19 +390,33 @@ body{background:#fff}
 <!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/4044097237-ieretrofit.js"></script> <![endif]-->
 <link href='' rel='publisher'/>
 <!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
-<title>SItemap Ijo Gading</title>
+<title>Sitemap Ijo Gading</title>
 <link href='http://www.blogger.com/openid-server.g' rel='openid.server'/>
 <link href='https://www.ijo-gading.com/' rel='openid.delegate'/>
+<meta content='2LSObwc-hC2SbDqG9_hKmOBRIDwPlJSqOiNLza4OA8k' name='google-site-verification'/>
+<meta content='27F4D690E5466FA5135AEE134314C907' name='msvalidate.01'/>
+<meta content='4fa9e9d364f8a40e' name='yandex-verification'/>
+<meta content='https://www.ijo-gading.com/p/about-us.html' property='og:url'/>
+<meta content='Ijo Gading' property='og:site_name'/>
+<meta content='https://3.bp.blogspot.com/-YH5RAX4fRnU/WpLTMLADKhI/AAAAAAAAC8Q/Z071Bu4Z1CEnYDE0oBJQOan0KxC2pLL7ACLcBGAs/s1600/Ijo%2BGading%2B256x256.png' property='og:image'/>
+<meta content='2224981314394198' property='fb:app_id'/>
+<meta content='100001509195350' property='fb:admins'/>
+<meta content='100001509195350' property='fb:profile_id'/>
+<meta content='Nama Author' name='Author'/>
+<meta content='https://web.facebook.com/ardycool17' property='article:author'/>
+<meta content='Ijo Gading' name='twitter:site'/>
+<meta content='summary_large_image' name='twitter:card'/>
+<meta content='@ardy_cool17' name='twitter:creator'/>
 </head><!--<head>
 <link href='https://www.blogger.com/static/v1/widgets/3957297643-widget_css_bundle.css' rel='stylesheet' type='text/css'/>
-<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=2051928909819832246&amp;zx=3067ca5f-ef97-4f05-b32c-1e35b6e2c387' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=2051928909819832246&amp;zx=3067ca5f-ef97-4f05-b32c-1e35b6e2c387' rel='stylesheet'/></noscript>
+<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=2051928909819832246&amp;zx=9c45c528-4edd-482f-8e0d-bc038c85e6ba' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=2051928909819832246&amp;zx=9c45c528-4edd-482f-8e0d-bc038c85e6ba' rel='stylesheet'/></noscript>
 </head>-->
 <body itemscope='itemscope' itemtype='http://schema.org/WebPage'>
-<div itemprop='mainContentOfPage' itemscope='itemscope' itemtype='https://schema.org/WebPageElement'>
-<div class='bungkus-judulblog' id='bungkus'>
-<div id='judulblog'>
-<div class='content-wrapper'>
-<div class='search-wrapper'>
+<button class='btn-sidebaramp' on='tap:sidebar.toggle'></button>
+<amp-sidebar id='sidebar' layout='nodisplay' side='right'>
+<svg class='amp-close-image' height='20' on='tap:sidebar.close' role='button' tabindex='0' viewBox='0 0 24 24' width='20'>
+<path d='M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z' fill='#000000'></path>
+</svg>
 <div id='search-box'>
 <div itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/WebSite'>
 <link href='https://www.ijo-gading.com/' itemprop='url'/>
@@ -449,32 +429,52 @@ body{background:#fff}
 </svg></button>
 </form></div>
 </div>
-<div class='sos-profil mobile-hide' id='sos-profil'>
+<nav class='main-menu-mobile' itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement'>
+<ul>
+<li><a href='http://ijo-gading.com/p/about-us.html' itemprop='url' target='_blank' title='About'><span itemprop='name'>About</span></a></li>
+<li><a href='http://ijo-gading.com/p/contak.html' itemprop='url' target='_blank' title='Contact'><span itemprop='name'>Contact</span></a></li>
+<li><a href='http://ijo-gading.com/p/disclaimer-ijo-gading.html' itemprop='url' target='_blank' title='Privacy'><span itemprop='name'>Disclaimer</span></a></li>
+<li><a href='https://www.ijo-gading.com/p/sitemap-ijo-gading.html' itemprop='url' rel='nofollow noopener' target='_blank' title='Sitemap'><span itemprop='name'>Sitemap</span></a></li>
+<li><a href='http://ijo-gading.com/search/label/Blogger' itemprop='url' target='_blank' title='Blogger'><span itemprop='name'>Blogger</span></a></li>
+<li><a href='http://ijo-gading.com/search/label/Seo' itemprop='url' target='_blank' title='SEO'><span itemprop='name'>SEO</span></a></li>
+<li><a href='http://ijo-gading.com/search/label/Pemrograman' itemprop='url' target='_blank' title='Pemrograman'><span itemprop='name'>Pemrograman</span></a></li>
+<li><a href='http://ijo-gading.com/search/label/Internet' itemprop='url' target='_blank' title='Internet'><span itemprop='name'>Internet</span></a></li>
+<li><a href='http://ijo-gading.com/search/label/Artikel' itemprop='url' target='_blank' title='Artikel'><span itemprop='name'>Artikel</span></a></li>
+<li><a href='http://ijo-gading.com/search/label/Tutorial' itemprop='url' target='_blank' title='Tutorial'><span itemprop='name'>Tutorial</span></a></li>
+<li><a href='http://ijo-gading.com/search/label/Anything' itemprop='url' title='anything'><span itemprop='name'>Anything</span></a></li>
+</ul><div class='clear'></div>
+</nav>
+<div class='sos-profil' id='sos-profil'>
 <div itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/Person'>
 <link href='https://www.ijo-gading.com/' itemprop='url'/>
 <ul>
-<li><a href='https://www.instagram.com/ardy_cool' rel='nofollow' target='_blank' title='Instagram'><svg viewbox='0 0 24 24'>
+<li><a href='https://www.instagram.com/ardy_cool' rel='nofollow noopener' target='_blank' title='Instagram'><svg viewbox='0 0 24 24'>
 <path d='M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z' fill='#000000'></path>
 </svg></a></li>
-<li><a href='#' itemprop='sameAs' rel='nofollow' target='_blank' title='Youtube'><svg viewBox='0 0 24 24'>
+<li><a href='#' itemprop='sameAs' rel='nofollow noopener' target='_blank' title='Youtube'><svg viewBox='0 0 24 24'>
 <path d='m3.375 1.6406c-1.1046 0-2 0.8955-2 2v16c0 1.104 0.8954 2 2 2h16c1.105 0 2-0.896 2-2v-16c0-1.1104-0.9-2.0004-2-2.0004h-16zm3.6191 4.2774l4.7519 2.8125 4.752 2.8125-4.766 2.941-4.7632 2.94 0.0117-5.754 0.0136-5.752z' fill='#000000'></path>
 </svg></a></li>
-<li><a href='#' itemprop='sameAs' rel='nofollow' target='_blank' title='LinkedIn'><svg viewBox='0 0 24 24'>
+<li><a href='#' itemprop='sameAs' rel='nofollow noopener' target='_blank' title='LinkedIn'><svg viewBox='0 0 24 24'>
 <path d='M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z' fill='#000000'></path>
 </svg></a></li>
-<li><a href='https://plus.google.com/+IjoGading' itemprop='sameAs' rel='nofollow' target='_blank' title='Google+'><svg viewBox='0 0 24 24'>
+<li><a href='https://plus.google.com/+IjoGading' itemprop='sameAs' rel='nofollow noopener' target='_blank' title='Google+'><svg viewBox='0 0 24 24'>
 <path d='M20,2A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4C2,2.89 2.9,2 4,2H20M20,12H18V10H17V12H15V13H17V15H18V13H20V12M9,11.29V13H11.86C11.71,13.71 11,15.14 9,15.14C7.29,15.14 5.93,13.71 5.93,12C5.93,10.29 7.29,8.86 9,8.86C10,8.86 10.64,9.29 11,9.64L12.36,8.36C11.5,7.5 10.36,7 9,7C6.21,7 4,9.21 4,12C4,14.79 6.21,17 9,17C11.86,17 13.79,15 13.79,12.14C13.79,11.79 13.79,11.57 13.71,11.29H9Z' fill='#000000'></path>
 </svg></a></li>
-<li><a href='https://twitter.com/ardy_cool17' itemprop='sameAs' rel='nofollow' target='_blank' title='Twitter'><svg viewBox='0 0 24 24'>
+<li><a href='https://twitter.com/ardy_cool17' itemprop='sameAs' rel='nofollow noopener' target='_blank' title='Twitter'><svg viewBox='0 0 24 24'>
 <path d='M17.71,9.33C17.64,13.95 14.69,17.11 10.28,17.31C8.46,17.39 7.15,16.81 6,16.08C7.34,16.29 9,15.76 9.9,15C8.58,14.86 7.81,14.19 7.44,13.12C7.82,13.18 8.22,13.16 8.58,13.09C7.39,12.69 6.54,11.95 6.5,10.41C6.83,10.57 7.18,10.71 7.64,10.74C6.75,10.23 6.1,8.38 6.85,7.16C8.17,8.61 9.76,9.79 12.37,9.95C11.71,7.15 15.42,5.63 16.97,7.5C17.63,7.38 18.16,7.14 18.68,6.86C18.47,7.5 18.06,7.97 17.56,8.33C18.1,8.26 18.59,8.13 19,7.92C18.75,8.45 18.19,8.93 17.71,9.33M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z' fill='#000000'></path>
 </svg></a></li>
-<li><a href='https://www.facebook.com/ijogadingAC' itemprop='sameAs' rel='nofollow' target='_blank' title='Facebook'><svg viewBox='0 0 24 24'>
+<li><a href='https://www.facebook.com/ijogadingAC' itemprop='sameAs' rel='nofollow noopener' target='_blank' title='Facebook'><svg viewBox='0 0 24 24'>
 <path d='M19,4V7H17A1,1 0 0,0 16,8V10H19V13H16V20H13V13H11V10H13V7.5C13,5.56 14.57,4 16.5,4M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z' fill='#000000'></path>
 </svg></a></li>
 </ul>
-</div></div>
-<div class='clear'></div>
 </div>
+</div>
+<div class='clear'></div>
+</amp-sidebar>
+<div itemprop='mainContentOfPage' itemscope='itemscope' itemtype='https://schema.org/WebPageElement'>
+<div class='bungkus-judulblog' id='bungkus'>
+<div id='judulblog'>
+<div class='content-wrapper'>
 <header itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/WPHeader'>
 <div id='header-wrapper'>
 <div class='content-wrapper'>
@@ -498,12 +498,6 @@ Ijo Gading</span></a>
 </header>
 <nav class='page-menu' itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement'>
 <ul>
-<li class='mobile-hide'><a href='http://ijo-gading.com/p/about-us.html' itemprop='url' title='About'><span itemprop='name'>About</span></a></li>
-<li class='mobile-hide'><a href='https://ijo-gading.com/p/contak.html' itemprop='url' title='Contact'><span itemprop='name'>Contact</span></a></li>
-<li class='mobile-hide'><a href='https://ijo-gading.com/p/disclaimer-ijo-gading.html' itemprop='url' title='Privacy'><span itemprop='name'>Disclaimer</span></a></li>
-<li class='mobile-hide'><a href='https://www.ijo-gading.com/p/pri.html' itemprop='url' title='Privacy'><span itemprop='name'>Privacy</span></a></li>
-<li class='mobile-hide'><a href='https://ijo-gading.com/p/sitemap-ijo-gading.html' itemprop='url' rel='nofollow' title='Sitemap'><span itemprop='name'>Sitemap</span></a></li>
-<li class='mobile-hide'><a href='https://ijo-gading.com/search/label/Anything' itemprop='url' title='anything'><span itemprop='name'>Anything</span></a></li>
 </ul>
 <div class='clear'></div>
 </nav>
@@ -514,27 +508,6 @@ Ijo Gading</span></a>
 </div>
 <div class='menu-wrapper'>
 <div class='content-wrapper'>
-<nav class='main-menu' itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement'>
-<ul>
-<li><a href='http://ijo-gading.com/search/label/Blogger' itemprop='url' title='Blogger'><span itemprop='name'><svg viewBox='0 0 24 24'>
-<path d='M19,10C19,11.38 16.88,12.5 15.5,12.5C14.12,12.5 12.75,11.38 12.75,10H11.25C11.25,11.38 9.88,12.5 8.5,12.5C7.12,12.5 5,11.38 5,10H4.25C4.09,10.64 4,11.31 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12C20,11.31 19.91,10.64 19.75,10H19M12,4C9.04,4 6.45,5.61 5.07,8H18.93C17.55,5.61 14.96,4 12,4M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M12,17.23C10.25,17.23 8.71,16.5 7.81,15.42L9.23,14C9.68,14.72 10.75,15.23 12,15.23C13.25,15.23 14.32,14.72 14.77,14L16.19,15.42C15.29,16.5 13.75,17.23 12,17.23Z' fill='#000000'></path>
-</svg> Blogger</span></a></li>
-<li><a href='http://ijo-gading.com/search/label/Seo' itemprop='url' rel='nofollow' target='_blank' title='SEO'><span itemprop='name'><svg viewBox='0 0 24 24'>
-<path d='M10,16.5V7.5L16,12M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z' fill='#000000'></path>
-</svg> SEO</span></a></li>
-<li><a href='http://ijo-gading.com/search/label/Pemrograman' itemprop='url' rel='nofollow' target='_blank' title='Pemrograman'><span itemprop='name'><svg viewBox='0 0 24 24'>
-<path d='M17,12V3A1,1 0 0,0 16,2H3A1,1 0 0,0 2,3V17L6,13H16A1,1 0 0,0 17,12M21,6H19V15H6V17A1,1 0 0,0 7,18H18L22,22V7A1,1 0 0,0 21,6Z' fill='#000000'></path>
-</svg> Pemrograman</span></a></li>
-<li><a href='http://ijo-gading.com/search/label/Internet' itemprop='url' title='Internet'><span itemprop='name'><svg viewBox='0 0 24 24'>
-<path d='M13,9H18.5L13,3.5V9M6,2H14L20,8V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V4C4,2.89 4.89,2 6,2M15,18V16H6V18H15M18,14V12H6V14H18Z' fill='#000000'></path>
-</svg> Internet</span></a></li>
-<li><a href='http://ijo-gading.com/search/label/Artikel' itemprop='url' target='_blank' title='Artikel'><span itemprop='name'><svg viewBox='0 0 24 24'><path d='M20,6A2,2 0 0,1 22,8V18A2,2 0 0,1 20,20H4C2.89,20 2,19.1 2,18V6C2,4.89 2.89,4 4,4H10L12,6H20M19.25,13H16V9H14V13H10.75L15,17.25' fill='#000000'></path>
-</svg> Artikel</span></a></li>
-<li><a href='http://ijo-gading.com/search/label/Tutorial' itemprop='url' target='_blank' title='Tutorial'><span itemprop='name'><svg viewBox='0 0 24 24'>
-<path d='M22.7,19L13.6,9.9C14.5,7.6 14,4.9 12.1,3C10.1,1 7.1,0.6 4.7,1.7L9,6L6,9L1.6,4.7C0.4,7.1 0.9,10.1 2.9,12.1C4.8,14 7.5,14.5 9.8,13.6L18.9,22.7C19.3,23.1 19.9,23.1 20.3,22.7L22.6,20.4C23.1,20 23.1,19.3 22.7,19Z' fill='#000000'></path>
-</svg> Tutorial</span></a></li>
-</ul>
-</nav>
 <amp-accordion class='menu-tool'>
 <section>
 <h5 class='menu-toolikon'>
@@ -591,10 +564,10 @@ Ijo Gading</span></a>
 </div>
 <meta content='Ijo Gading' itemprop='name'/>
 </div>
-<meta content='2017-04-10T15:12:00+07:00' itemprop='datePublished'/>
-<meta content='2017-04-10T08:12:27Z' itemprop='dateModified'/>
+<meta content='2017-09-19T11:08:00+07:00' itemprop='datePublished'/>
+<meta content='2017-09-19T04:08:18Z' itemprop='dateModified'/>
 <h2 class='post-title entry-title' itemprop='headline'>
-<a href='http://cdn.rawgit.com/ardycool/ardy-cool/b8f81b56/sitemapnew.html' itemprop='url mainEntityOfPage' title='Sitemap Blog Anda'>Sitemap Blog Anda</a>
+Sitemap Ijo Gading
 </h2>
 <div class='judul-box'>
 <div class='postmeta'>
@@ -610,13 +583,15 @@ Ijo Gading</span></a>
 </span>
 <meta content='//lh6.googleusercontent.com/-wWtU4r3e_pg/AAAAAAAAAAI/AAAAAAAACD4/Z7k0wlUw888/s512-c/photo.jpg' itemprop='image'/>
 </span>
-<abbr class='updated' title='2017-04-10T15:12:00+07:00'></abbr>
+<abbr class='updated' title='2017-09-19T11:08:00+07:00'></abbr>
 </h3>
 </div>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
 </div>
-<div class='post-body entry-content' id='post-body-8509938909559475494' itemprop='description articleBody'>
+<div class='post-body entry-content' id='post-body-8347697661460685997' itemprop='articleBody'>
+<div>
+
 <div id="table-outer">
 <table><tbody>
 <tr><td><label for="feed-order">Urutkan artikel berdasarkan:</label></td> <td><select id="feed-order"> <option selected="" value="published">Artikel terbaru</option> <option value="updated">Artikel yang terakhir di update</option> </select></td></tr>
@@ -632,7 +607,7 @@ Ijo Gading</span></a>
 <div id="feed-nav">
 </div>
 <script type='text/javaScript'>
-document.write;var loadToc,loadCategories,_toc={init:function(){var cfg={homePage:"http://www.ijo-gading.com",maxResults:10,numChars:270,thumbWidth:140,thumbHeight:95,navText:"Tampilkan artikel selanjutnya &#9660;",resetToc:"Kembali ke Awal",noImage:"http://2.bp.blogspot.com/-11FkySHGB5Y/TpZ6SSbsF2I/AAAAAAAAA94/zK10UaL7jgo/s1600/images.jpeg",loading:"<span>Memuat...</span>",counting:"<div>Memuat artikel...</div>",searching:"<span>Mencari...</span>"},w=window,d=document,el=function(id){return d.getElementById(id);},o={a:el('feed-order'),b:el('label-sorter').parentNode,c:el('post-searcher'),d:el('feed-q'),e:el('result-desc'),f:el('feed-container'),g:el('feed-nav'),h:d.getElementsByTagName('head')[0],i:0,j:null,k:'published',l:0,m:""},fn={a:function(){old=el('temporer-script');old.parentNode.removeChild(old);},b:function(param){var script=d.createElement('script');script.type="text/javascript";script.id="temporer-script";script.src=param;if(el('temporer-script'))fn.a();o.h.appendChild(script);},c:function(mode,tag,order){o.i++;o.e.innerHTML=cfg.counting;o.g.innerHTML=cfg[mode==1?"searching":"loading"];if(mode===0){fn.b(tag!==null?cfg.homePage+'/feeds/posts/summary/-/'+ tag+'?alt=json-in-script&start-index='+((o.i*cfg.maxResults)+ 1)+'&max-results='+ cfg.maxResults+'&orderby='+ order+'&callback=loadToc':cfg.homePage+'/feeds/posts/summary?alt=json-in-script&start-index='+((o.i*cfg.maxResults)+ 1)+'&max-results='+ cfg.maxResults+'&orderby='+ order+'&callback=loadToc');}else if(mode==1){fn.b(cfg.homePage+'/feeds/posts/summary?alt=json-in-script&start-index='+((o.i*cfg.maxResults)+ 1)+'&max-results='+ cfg.maxResults+'&q='+ tag+'&orderby='+ order+'&callback=loadToc');}
+document.write;var loadToc,loadCategories,_toc={init:function(){var cfg={homePage:"https://www.ijo-gading.com",maxResults:10,numChars:270,thumbWidth:140,thumbHeight:95,navText:"Tampilkan artikel selanjutnya &#9660;",resetToc:"Kembali ke Awal",noImage:"http://2.bp.blogspot.com/-11FkySHGB5Y/TpZ6SSbsF2I/AAAAAAAAA94/zK10UaL7jgo/s1600/images.jpeg",loading:"<span>Memuat...</span>",counting:"<div>Memuat artikel...</div>",searching:"<span>Mencari...</span>"},w=window,d=document,el=function(id){return d.getElementById(id);},o={a:el('feed-order'),b:el('label-sorter').parentNode,c:el('post-searcher'),d:el('feed-q'),e:el('result-desc'),f:el('feed-container'),g:el('feed-nav'),h:d.getElementsByTagName('head')[0],i:0,j:null,k:'published',l:0,m:""},fn={a:function(){old=el('temporer-script');old.parentNode.removeChild(old);},b:function(param){var script=d.createElement('script');script.type="text/javascript";script.id="temporer-script";script.src=param;if(el('temporer-script'))fn.a();o.h.appendChild(script);},c:function(mode,tag,order){o.i++;o.e.innerHTML=cfg.counting;o.g.innerHTML=cfg[mode==1?"searching":"loading"];if(mode===0){fn.b(tag!==null?cfg.homePage+'/feeds/posts/summary/-/'+ tag+'?alt=json-in-script&start-index='+((o.i*cfg.maxResults)+ 1)+'&max-results='+ cfg.maxResults+'&orderby='+ order+'&callback=loadToc':cfg.homePage+'/feeds/posts/summary?alt=json-in-script&start-index='+((o.i*cfg.maxResults)+ 1)+'&max-results='+ cfg.maxResults+'&orderby='+ order+'&callback=loadToc');}else if(mode==1){fn.b(cfg.homePage+'/feeds/posts/summary?alt=json-in-script&start-index='+((o.i*cfg.maxResults)+ 1)+'&max-results='+ cfg.maxResults+'&q='+ tag+'&orderby='+ order+'&callback=loadToc');}
 o.j=(tag!==null)?tag:null;o.l=mode;o.a.disabled=true;o.b.children[0].disabled=true;},d:function(json){var _h;o.g.innerHTML="";o.e.innerHTML=o.l==1?'<span>Hasil penelusuran untuk kata kunci <b>&#8220;'+ o.m+'&#8221;</b> ('+ json.feed.openSearch$totalResults.$t+' Hasil)</span>':'<div>Total: '+ json.feed.openSearch$totalResults.$t+' Artikel</div>';if("entry"in json.feed){var a=json.feed.entry,b,c,_d,e="0 Komentar",f="",g;for(var i=0;i<cfg.maxResults;i++){if(i==a.length)break;b=a[i].title.$t;_d=("summary"in a[i])?a[i].summary.$t.replace(/<br ?\/?>/ig," ").replace(/<(.*?)>/g,"").replace(/<iframe/ig,"").substring(0,cfg.numChars):"";g=("media$thumbnail"in a[i])?a[i].media$thumbnail.url.replace(/\/s[0-9]+\-c/,"\/s"+ cfg.thumbWidth+""):cfg.noImage.replace(/\/s[0-9]+\-c/,"\/s"+ cfg.thumbWidth+"");for(var j=0,jen=a[i].link.length;j<jen;j++){c=(a[i].link[j].rel=="alternate")?a[i].link[j].href:"#";}
 for(var k=0,ken=a[i].link.length;k<ken;k++){if(a[i].link[k].rel=="replies"&&a[i].link[k].type=="text/html"){e=a[i].link[k].title;break;}}
 _h=d.createElement('li');_h.innerHTML='<div class="inner"><img style="width:'+ cfg.thumbWidth+'px;height:'+ cfg.thumbHeight+'px;" src="'+ g+'" alt="'+ b+'"><a class="toc-title" href="'+ c+'" target="_blank" title="'+ b+'">'+ b+'</a><div class="news-text">'+ _d+'&hellip;<br style="clear:both;"></div></div>';o.f.appendChild(_h);}
@@ -640,46 +615,12 @@ _h=d.createElement('a');_h.href='#load-more';_h.innerHTML=cfg.navText;_h.onclick
 o.g.appendChild(_h);o.a.disabled=false;o.b.children[0].disabled=false;},e:function(json){var a=json.feed.category,b='<select id="label-sorter"><option value="" selected disabled>Pilih Kategori...</option>';for(var i=0,len=a.length;i<len;i++){b+='<option value="'+ encodeURIComponent(a[i].term)+'">'+ encodeURIComponent(a[i].term)+'</option>';}
 b+='</select>';o.b.innerHTML=b;o.b.children[0].onchange=function(){o.i=-1;o.f.innerHTML="";o.g.innerHTML=cfg.loading;fn.c(0,this.value,o.k);};}};loadToc=fn.d;loadCategories=fn.e;fn.b(cfg.homePage+'/feeds/posts/summary?alt=json-in-script&start-index='+(o.i+ 1)+'&max-results='+ cfg.maxResults+'&orderby=published&callback=loadToc');fn.b(cfg.homePage+'/feeds/posts/summary?alt=json-in-script&max-results=0&orderby=published&callback=loadCategories');o.a.onchange=function(){o.i=-1;o.f.innerHTML="";o.g.innerHTML=cfg.counting;o.b.children[0].innerHTML=o.b.children[0].innerHTML;fn.c(0,null,this.value);o.k=this.value;};o.c.onsubmit=function(){o.i=-1;o.f.innerHTML="";o.m=o.d.value;fn.c(1,o.d.value,o.k);return false;};}};_toc.init();
 </script>
+</div>
 <div class='clear'></div>
 </div>
 </div>
 </div>
 </article>
-<div class='disqus-comments' id='disqus_comments'>
-<div class='pesan-komentar' id='pesan-komentar'>
-<div class='tombol-pesan'>How to style text in Disqus comments:</div>
-<div id='isi-pesan'>
-<ul>
-<li>To write a <b>bold</b> letter please use <code>&lt;strong&gt;&lt;/strong&gt;</code> or <code>&lt;b&gt;&lt;/b&gt;</code>.</li>
-<li>To write a <i>italic</i> letter please use <code>&lt;em&gt;&lt;/em&gt;</code> or <code>&lt;i&gt;&lt;/i&gt;</code>.</li>
-<li>To write a <u>underline</u> letter please use <code>&lt;u&gt;&lt;/u&gt;</code>.</li>
-<li>To write a <span class='strike'>strikethrought</span> letter please use <code>&lt;strike&gt;&lt;/strike&gt;</code>.</li>
-<li>To write HTML code, please use <code>&lt;code&gt;&lt;/code&gt;</code> or <code>&lt;pre&gt;&lt;/pre&gt;</code> or <code>&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</code>.<br/>
-And use <b>parse tool</b> below to easy get the style.</li>
-</ul>
-</div>
-<div class='clear'></div>
-<amp-accordion class='parse_box'>
-<section>
-<h5 class='btn btn-primary btn-xs'>
-<span class='show-more'>Show Parser</span>
-<span class='show-less'>Hide Parser</span>
-</h5>
-<div class='parse-box'>
-<amp-iframe frameborder='0' height='250' layout='responsive' sandbox='allow-forms allow-scripts allow-same-origin allow-modals allow-popups' src='https://cdn.rawgit.com/KompiAjaib/kompi-html/master/parser-code2.html' width='747'>
-</amp-iframe>
-</div>
-</section>
-</amp-accordion>
-<div class='clear'></div>
-</div>
-<div class='clear'></div>
-<div class='disqus-box'>
-<amp-iframe frameborder='0' height='300' layout='responsive' resizable='resizable' sandbox='allow-forms allow-scripts allow-same-origin allow-modals allow-popups' src='https://cdn.rawgit.com/KompiAjaib/kompi-html/master/ampdisqus_blogger3.html?shortname=http-www-ijo-gading-com&fontBodyFamily=sans-serif&fontLinkColor=e8554e&canonicalurl=https://www.ijo-gading.com/p/disclaimer-ijo-gading.html&url=https://www.ijo-gading.com/p/disclaimer-ijo-gading.html&homepageurl=https://www.ijo-gading.com/&canonicalhomepageurl=https://www.ijo-gading.com/' width='600'>
-<div aria-label='Disqus Comments' overflow='' role='button' tabindex='0'></div>
-</amp-iframe>
-</div>
-</div>
 <div class='clear'></div>
 <div class='clear'></div>
 </div>
@@ -692,32 +633,6 @@ And use <b>parse tool</b> below to easy get the style.</li>
 </div>
 </main>
 <div itemprop='mainEntity' itemscope='itemscope' itemtype='https://schema.org/WPSideBar'>
-<aside id='sidebar-kanan'>
-<div id='sidebar-wrapper'>
-<div class='sidebar relative section' id='sidebar'><div class='widget HTML' data-version='1' id='HTML1'>
-</div><div class='widget HTML' data-version='1' id='HTML5'>
-<div class='widget-content'>
-<div class="gplus-box">
-<amp-iframe width="280"
-      height="240"
-      sandbox="allow-scripts allow-same-origin allow-popups"
-      frameborder="0"
-      scrolling="no" src="https://cdn.rawgit.com/ardycool/ardy-cool/863ef728/gplus.html">
-  </amp-iframe>
-</div>
-</div>
-</div><div class='widget HTML' data-version='1' id='HTML7'>
-<div class='widget-content'>
-<amp-iframe 
-width="300" 
-height="450" 
-sandbox="allow-scripts allow-same-origin allow-popups" frameborder="0" 
-scrolling="no" src="https://cdn.rawgit.com/ardycool/ardy-cool/863ef728/fbfanspage.html?page=ijogadingAC">
-</amp-iframe>
-</div>
-</div></div>
-</div>
-</aside>
 </div>
 </div>
 <!-- spacer for skins that want sidebar and main to be the same height-->
@@ -740,7 +655,7 @@ scrolling="no" src="https://cdn.rawgit.com/ardycool/ardy-cool/863ef728/fbfanspag
 <li><a href='https://www.facebook.com/ijogadingAC' rel='nofollow' target='_blank' title='Facebook Fans Page'>Facebook Fans Page</a></li>
 <li><a href='https://ijo-gading.com/p/about-us.html' target='_blank' title='Tentang Ijo Gading'>Tentang Ijo Gading</a></li>
 <li><a href='https://ijo-gading.com/p/contak.html' target='_blank' title='Hubungi Saya'>Hubungi Saya</a></li>
-<li><a href='https://ijo-gading.com/p/sitemap-ijo-gading.html' target='_blank' title='Daftar Isi'>Daftar Isi</a></li>
+<li><a href='https://www.ijo-gading.com/p/sitemap-ijo-gading.html' rel='nofollow noopener' target='_blank' title='Daftar Isi'>Daftar Isi</a></li>
 <li><a href='https://ijo-gading.com/search/label/Anything' target='_blank' title='Anything'>Anything</a></li>
 </ul>
 </div>
@@ -776,18 +691,5 @@ Copyright &#169; <span itemprop='copyrightYear'>2016</span>
 </footer>
 </div>
 </div>
-<!--<script src='https://apis.google.com/js/plusone.js' type='text/javascript'></script>
-
-<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2227587253-widgets.js"></script>
-<script type='text/javascript'>
-window['__wavt'] = 'AOuZoY5NE40Bq9-9n6liicZGDs8zCkUSlA:1520214070531';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d2051928909819832246','//www.ijo-gading.com/p/disclaimer-ijo-gading.html','2051928909819832246');
-_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '2051928909819832246', 'title': 'Ijo Gading', 'url': 'https://www.ijo-gading.com/p/disclaimer-ijo-gading.html', 'canonicalUrl': 'https://www.ijo-gading.com/p/disclaimer-ijo-gading.html', 'homepageUrl': 'https://www.ijo-gading.com/', 'searchUrl': 'https://www.ijo-gading.com/search', 'canonicalHomepageUrl': 'https://www.ijo-gading.com/', 'blogspotFaviconUrl': 'https://www.ijo-gading.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': true, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': 'UA-93515544-1', 'encoding': 'UTF-8', 'locale': 'id', 'localeUnderscoreDelimited': 'id', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Ijo Gading - Atom\x22 href\x3d\x22https://www.ijo-gading.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Ijo Gading - RSS\x22 href\x3d\x22https://www.ijo-gading.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Ijo Gading - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/2051928909819832246/posts/default\x22 /\x3e\n', 'meTag': '', 'openIdOpTag': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/cb66ba6d93d44a2b', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sharing': {'platforms': [{'name': 'Dapatkan link', 'key': 'link', 'shareMessage': 'Dapatkan link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Bagikan ke Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Bagikan ke Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Bagikan ke Pinterest', 'target': 'pinterest'}, {'name': 'Google+', 'key': 'googlePlus', 'shareMessage': 'Bagikan ke Google+', 'target': 'googleplus'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27id\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Baca selengkapnya', 'pageType': 'static_page', 'pageId': '8509938909559475494', 'pageName': 'Disclaimer Website Ijo-Gading', 'pageTitle': 'Ijo Gading: Disclaimer Website Ijo-Gading', 'metaDescription': ''}}, {'name': 'features', 'data': {'lazy_images': 'false', 'unsupported_browser_message': 'false', 'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Tautan disalin ke papan klip!', 'ok': 'Oke', 'postLink': 'Tautan Pos'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Khusus', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'Disclaimer Website Ijo-Gading', 'description': 'Panduan SEO Blog Berkualitas, Panduan Promosi Blog Lengkap, Tutorial Android, Belajar Bahasa Pemrograman PHP dan MySql', 'url': 'https://www.ijo-gading.com/p/disclaimer-ijo-gading.html', 'type': 'item', 'isSingleItem': true, 'isMultipleItems': false, 'isError': false, 'isPage': true, 'isPost': false, 'isHomepage': false, 'isArchive': false, 'isLabelSearch': false, 'pageId': 8509938909559475494}}]);
-_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'useNgc': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/2881030338-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebar', null, document.getElementById('HTML5'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7', 'sidebar', null, document.getElementById('HTML7'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'carousel', null, document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
-</script>
 </body>--> </body>
 </HTML>
